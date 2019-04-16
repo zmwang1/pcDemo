@@ -1,0 +1,125 @@
+body {
+	margin: 0;
+	background: #eeeeee;
+	font-family: Helvetica Neue, Helvetica, PingFang SC, Hiragino Sans GB, Microsoft YaHei, SimSun, sans-serif;
+	font-size: 14px;
+}
+
+body,
+html {
+	height: 100%;
+}
+
+a:link,
+a:visited,
+a:hover,
+a:active {
+	text-decoration: none;
+}
+
+ul,
+li,
+ol,
+dl,
+dt {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+#app {
+	min-width: 1200px;
+	height: 100%;
+}
+
+.logo {
+	font-size: 16px;
+	text-align: center;
+	color: rgba(255, 251, 251, .4);
+	padding: 15px 0;
+	display: block;
+}
+
+.logo i {
+	display: block;
+	margin: 0 auto;
+	font-size: 60px;
+}
+
+.logo .logobase64 {
+	background-image: url('data:image/png;base64,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');
+	width: 60px;
+	height: 60px;
+	margin: 0 auto 10px;
+	background-size: 100% 100%;
+}
+
+/* 重置UI */
+
+.el-header {
+	border-radius: 0;
+	background-color: #333333;
+	line-height: 60px;
+	height: 60px;
+	padding: 0 10px;
+}
+
+.el-header span {
+	display: inline-block;
+	color: #fffbfb;
+}
+
+.el-header .el-dropdown {
+	float: right;
+}
+
+.el-header .el-dropdown-link {
+	color: #fffbfb;
+}
+
+.el-container {
+	height: 100%;
+}
+
+.el-aside {
+	background-color: #333333;
+}
+
+.el-menu {
+	border: none;
+}
+
+.el-submenu .el-menu-item {
+	min-width: auto;
+}
+
+.topMenu .el-button--text {
+	color: #fff;
+}
+
+.el-breadcrumb {
+	padding: 1px 10px 15px;
+	font-size: 14px;
+}
+
+.el-menu .iconfont {
+	margin-right: 6px;
+	font-size: 22px;
+	color: #fff;
+}
+
+.el-input__suffix {
+	cursor: pointer;
+}
+
+.menuBtn {
+	text-align: center;
+}
+
+.menuBtn .el-button {
+	margin: 5px;
+}
+
+.el-menu-item.is-active{
+	background:#009874 !important;
+}
